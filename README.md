@@ -1,86 +1,40 @@
-# Retail Sales Analysis
+# Olist E-Commerce Business Intelligence Analysis
 
 ## Project Overview
-This project performs Exploratory Data Analysis (EDA) on a retail sales dataset to uncover:
+This project analyzes the Brazilian Olist e-commerce dataset to extract actionable business insights using Python and Pandas.
 
-- Overall business growth trends
-- Seasonal sales patterns
-- Regional performance
-- Product and category contribution
-- Customer segment behavior
+The dataset consists of multiple relational tables including orders, customers, products, payments, and reviews.
 
-The goal is to transform raw sales data into meaningful business insights using Python.
+The objective is to transform raw transactional data into a structured analytical model ready for Power BI dashboarding.
 
 ---
 
-## Tools & Technologies Used
+## Business Objectives
+- Revenue Engineering (Order-level aggregation)
+- Time-based Growth Analysis
+- Delivery Performance Measurement
+- Product Category Contribution
+- Customer Behavior & Retention Analysis
+- Geographic Revenue Distribution
+
+---
+
+## Tools Used
 - Python
 - Pandas
+- NumPy
 - Matplotlib
 - Jupyter Notebook
 - Git & GitHub
+- Power BI
 
 ---
 
-## Analysis Performed
-
-### Data Cleaning & Feature Engineering
-- Converted date columns to datetime format
-- Extracted Year and Month for time-series analysis
-- Checked and handled missing values
-
-### Business Growth Analysis
-- Calculated yearly total revenue
-- Computed Year-over-Year (YoY) growth rate
-- Identified steady expansion over time
-
-### Seasonal Trend Analysis
-- Analyzed monthly sales distribution
-- Identified peak months: March, September, and November
-- Observed strong Q4 performance
-
-### Regional Performance
-- Compared total sales by region
-- Identified highest revenue-generating region
-- Evaluated sales distribution variability
-
-### Category & Product Analysis
-- Measured revenue contribution by category
-- Identified top-performing products
-- Observed revenue concentration patterns
-
-### Customer Segment Analysis
-- Compared total revenue by segment
-- Calculated average order value per segment
-- Identified:
-  - Consumer segment → volume-driven growth
-  - Home Office segment → higher average order value
+## Key Highlights
+- Average Order Value ≈ 159.83
+- Revenue concentrated in São Paulo (SP)
+- Logistics performance measurable via delivery KPIs
+- Revenue modeled correctly at order-level grain
+- Customer retention evaluated using unique identifiers
 
 ---
-
-## Key Business Insights
-- The company shows consistent year-over-year growth.
-- November is the strongest performing month.
-- West region contributes the highest total revenue.
-- Consumer segment drives the majority of sales volume.
-- Home Office customers generate higher-value transactions.
-- Sales demonstrate predictable seasonal patterns.
-
----
-
-## Business Recommendations
-- Increase marketing efforts during peak months (March & November).
-- Strengthen strategy in high-performing regions.
-- Expand targeting of high-value Home Office customers.
-- Diversify product focus to reduce dependency on top sellers.
-
----
-
-## Dataset
-Retail sales dataset containing transactional order-level data.
-
----
-
-## Author
-Srikanth  
-Aspiring Data Analyst | BTech CSE  
