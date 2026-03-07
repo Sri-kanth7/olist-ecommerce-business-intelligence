@@ -1,40 +1,70 @@
 # Olist E-Commerce Business Intelligence Analysis
 
 ## Project Overview
-This project analyzes the Brazilian Olist e-commerce dataset to extract actionable business insights using Python and Pandas.
+This project analyzes the Brazilian Olist e-commerce dataset to extract actionable business insights using **Python, SQL, and Power BI**.
 
-The dataset consists of multiple relational tables including orders, customers, products, payments, and reviews.
+The analysis focuses on:
+- Sales trends
+- Product performance
+- Delivery efficiency
+- Customer geographic distribution
 
-The objective is to transform raw transactional data into a structured analytical model ready for Power BI dashboarding.
-
----
-
-## Business Objectives
-- Revenue Engineering (Order-level aggregation)
-- Time-based Growth Analysis
-- Delivery Performance Measurement
-- Product Category Contribution
-- Customer Behavior & Retention Analysis
-- Geographic Revenue Distribution
+The project demonstrates a full **data analytics pipeline from raw data to dashboard insights**.
 
 ---
 
-## Tools Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Jupyter Notebook
-- Git & GitHub
+# Tools & Technologies
+
+- Python (Pandas, Matplotlib)
+- MySQL
 - Power BI
+- Git & GitHub
 
 ---
 
-## Key Highlights
-- Average Order Value ≈ 159.83
-- Revenue concentrated in São Paulo (SP)
-- Logistics performance measurable via delivery KPIs
-- Revenue modeled correctly at order-level grain
-- Customer retention evaluated using unique identifiers
+# Dataset
+
+Dataset: Brazilian E-Commerce Public Dataset by Olist
+
+Source:
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+The dataset contains information about:
+
+- customers
+- orders
+- products
+- sellers
+- payments
+- reviews
+- geolocation
 
 ---
+
+# Project Workflow
+
+## 1. Exploratory Data Analysis (Python)
+
+Performed data exploration using Python.
+
+Tasks included:
+- Understanding dataset structure
+- Checking distributions
+- Identifying patterns and anomalies
+- Visualizing trends with Matplotlib
+
+---
+
+## 2. Data Import & Cleaning (SQL)
+
+Imported multiple CSV tables into **MySQL** and performed data preparation.
+
+Steps included:
+
+- Creating relational tables
+- Handling missing values
+- Data validation
+- Creating derived columns
+
+Example feature engineering:
+
