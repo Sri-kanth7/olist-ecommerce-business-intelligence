@@ -1,70 +1,28 @@
-# Olist E-Commerce Business Intelligence Analysis
+# Brazil E-Commerce Business Intelligence Analysis
 
-## Project Overview
-This project analyzes the Brazilian Olist e-commerce dataset to extract actionable business insights using **Python, SQL, and Power BI**.
+## Overview
+This project analyzes the Brazilian Olist e-commerce dataset using SQL, Python, and Power BI to uncover sales trends, product performance, and delivery efficiency.
 
-The analysis focuses on:
-- Sales trends
-- Product performance
-- Delivery efficiency
-- Customer geographic distribution
-
-The project demonstrates a full **data analytics pipeline from raw data to dashboard insights**.
-
----
-
-# Tools & Technologies
-
-- Python (Pandas, Matplotlib)
-- MySQL
+## Tools Used
+- SQL
+- Python
 - Power BI
-- Git & GitHub
+- Excel
 
----
+## Key Insights
+- Total Revenue: 15.8M
+- Total Orders: 99K
+- Average Delivery Time: 12 Days
+- Identified top product categories driving revenue.
 
-# Dataset
+## Dashboard Preview
 
-Dataset: Brazilian E-Commerce Public Dataset by Olist
+![Dashboard](images/dashboard_preview.png)
 
-Source:
-https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+## Repository Structure
 
-The dataset contains information about:
-
-- customers
-- orders
-- products
-- sellers
-- payments
-- reviews
-- geolocation
-
----
-
-# Project Workflow
-
-## 1. Exploratory Data Analysis (Python)
-
-Performed data exploration using Python.
-
-Tasks included:
-- Understanding dataset structure
-- Checking distributions
-- Identifying patterns and anomalies
-- Visualizing trends with Matplotlib
-
----
-
-## 2. Data Import & Cleaning (SQL)
-
-Imported multiple CSV tables into **MySQL** and performed data preparation.
-
-Steps included:
-
-- Creating relational tables
-- Handling missing values
-- Data validation
-- Creating derived columns
-
-Example feature engineering:
-
+dashboard/ → Power BI dashboard  
+data/ → dataset files  
+sql/ → SQL analysis queries  
+notebooks/ → Python analysis notebook  
+images/ → dashboard screenshots
